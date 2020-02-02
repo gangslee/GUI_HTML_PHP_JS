@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=11">
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="js/bootstrap.bundle.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/bootstrap.bundle.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+
+    <script src="js/jquery-3.3.1.js" type="text/javascript"  charset="utf-8"></script>
+    <script src="./js/main.js" type="text/javascript"  charset="utf-8"></script>
+
+    <title>태깅..........</title>
+
+  </head>
+
+  <body>
+
+    <header>
+      <div id="page-title">SET COLOR</div>
+      <div id="menus">
+        <a href="#">기타</a>
+        <a href="./upload.php">업로드 페이지</a>
+        <a href="./list.html">리스트 페이지</a>
+        <a href="./tagging.html">태깅 페이지</a>
+      </div>
+    </header>
+
+    <div id="main_block">
+
+        <div id="edge">
+
+        </div>
+
+        <form id="tagging">
+
+          <select>
+             <option  value=""/>Jewelry Type</option>
+             <option  name="jewelry_type" value="necklace"/>necklace</option>
+             <option  name="jewelry_type" value="earing" />earing</option>
+             <option  name="jewelry_type" value="ring" />ring</option>
+             <option  name="jewelry_type" value="bracelet" />bracelet</option>
+             <option  name="jewelry_type" value="etc" />etc</option>
+          </select>
+
+          <select>
+             <option  value=""/>Material Type</option>
+             <option  name="material_type" value="metal"/>metal</option>
+             <option  name="material_type" value="leather" />leather</option>
+             <option  name="material_type" value="none" />none</option>
+             <option  name="material_type" value="etc" />etc</option>
+          </select>
+
+          <select>
+             <option  value=""/>Core Type</option>
+             <option  name="core_type" value="stone"/>stone</option>
+             <option  name="core_type" value="pearl" />pearl</option>
+             <option  name="core_type" value="none" />none</option>
+             <option  name="core_type" value="etc" />etc</option>
+          </select>
+
+
+          <select>
+             <option  value=""/>Metal Color</option>
+             <option  name="metal_color" value="white"/>white</option>
+             <option  name="metal_color" value="yellow" />yellow</option>
+             <option  name="metal_color" value="pink" />pink</option>
+             <option  name="metal_color" value="black" />black</option>
+             <option  name="metal_color" value="combine" />conbine</option>
+             <option  name="metal_color" value="etc" />etc</option>
+          </select>
+
+          <select>
+             <option  value=""/>Core Color</option>
+             <option  name="core_color" value="red"/>red</option>
+             <option  name="core_color" value="orange" />orange</option>
+             <option  name="core_color" value="yellow" />yellow</option>
+             <option  name="core_color" value="green" />green</option>
+             <option  name="core_color" value="blue" />blue</option>
+             <option  name="core_color" value="purple" />purple</option>
+             <option  name="core_color" value="brown" />brown</option>
+             <option  name="core_color" value="pink" />pink</option>
+             <option  name="core_color" value="white" />white</option>
+             <option  name="core_color" value="black" />black</option>
+             <option  name="core_color" value="etc" />etc</option>
+          </select>
+
+          <select>
+             <option  value=""/>Setting Type</option>
+             <option  name="setting_type" value="bezel"/>bezel</option>
+             <option  name="setting_type" value="prong" />prong</option>
+             <option  name="setting_type" value="pave" />pave</option>
+             <option  name="setting_type" value="etc" />etc</option>
+          </select>
+
+          <select>
+             <option  value=""/>Stone Shape</option>
+             <option  name="stone_shape" value="asscher"/>asscher</option>
+             <option  name="stone_shape" value="cushion" />cushion</option>
+             <option  name="stone_shape" value="emerald" />emerald</option>
+             <option  name="stone_shape" value="heart" />heart</option>
+             <option  name="stone_shape" value="marquise" />marquise</option>
+             <option  name="stone_shape" value="oval" />oval</option>
+             <option  name="stone_shape" value="pear" />pear</option>
+             <option  name="stone_shape" value="princess" />princess</option>
+             <option  name="stone_shape" value="round" />round</option>
+             <option  name="stone_shape" value="square" />square</option>
+             <option  name="stone_shape" value="baguette" />baguette</option>
+             <option  name="stone_shape" value="etc" />etc</option>
+          </select>
+
+        </form>
+
+        <div class="next">
+           <input type="button" value="NEXT" onclick="goNext();"/>
+        </div>
+
+    </div>
+
+
+
+  </body>
+</html>
